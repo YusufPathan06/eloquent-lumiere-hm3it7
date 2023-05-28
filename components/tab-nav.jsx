@@ -6,7 +6,6 @@ const TabNav = ({ active, goto }) => {
       <Navbar className="navbar" tabs="true">
         <NavItem className={active === "form" ? "navLink" : ""}>
           <NavLink
-            // style={{ border: "3px solid black" }}
             className="navLinkText"
             onClick={() => goto("form")}
           >
