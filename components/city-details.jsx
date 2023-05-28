@@ -21,7 +21,7 @@ const CityDetails = ({ city }) => {
         </span>
         <span className="tempDetailsText">
           H: {city?.meta?.city?.weather?.tomorrow?.max ?? "33"}˚| L:{" "}
-          {city?.meta?.city?.weather?.tomorrow?.min ?? "22"}˚
+          {city?.meta?.city?.weather?.tomorrow?.min ?? "21"}˚
         </span>
       </div>
     </div>

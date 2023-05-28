@@ -6,7 +6,8 @@
     "build": "next build",
     "start": "next start",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_932be4f72f63662"
   },
   "dependencies": {
     "@apollo/client": "3.5.10",
@@ -35,5 +36,7 @@
     "chromatic": "^6.17.4",
     "prop-types": "15.8.1",
     "storybook": "7.0.18"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "kaos-hiring-challenge@1.0.0"
 }
