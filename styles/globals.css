@@ -15,6 +15,12 @@ a {
   box-sizing: border-box;
 }
 
+.heading {
+  margin-top: 0.3em;
+  font-weight: 700;
+  line-height: 29px;
+}
+
 .mainNav {
   padding: 0px;
   justify-content: center;
@@ -38,9 +44,14 @@ a {
 }
 
 .navLinkText {
+  cursor: pointer;
   font-weight: 700;
   font-size: 14px;
   color: #1d1d1f;
+}
+
+.navLinkText:hover {
+  color: black;
 }
 
 .label {
